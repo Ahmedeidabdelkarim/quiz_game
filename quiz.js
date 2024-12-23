@@ -138,7 +138,7 @@ function startTimer(durationInMinutes, display) {
 }
 
 window.onload = function () {
-  var minutes = 1; // Set the timer duration in minutes
+  var minutes = 10; // Set the timer duration in minutes
   var display = document.querySelector("#timer");
   startTimer(minutes, display);
   showQuestion();
